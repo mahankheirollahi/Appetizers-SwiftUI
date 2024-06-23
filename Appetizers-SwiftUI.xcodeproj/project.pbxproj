@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E376D8622C28904300163A13 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376D8612C28904300163A13 /* Appetizer.swift */; };
+		E376D8652C28B05400163A13 /* AppetizerListTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376D8642C28B05400163A13 /* AppetizerListTile.swift */; };
+		E376D8672C28B1B100163A13 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376D8662C28B1B100163A13 /* NetworkManager.swift */; };
+		E376D8692C28B48700163A13 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376D8682C28B48700163A13 /* APError.swift */; };
+		E376D86B2C28C60200163A13 /* AppetizerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376D86A2C28C60100163A13 /* AppetizerViewModel.swift */; };
 		E38744202C28895A000916FF /* Appetizers_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E387441F2C28895A000916FF /* Appetizers_SwiftUIApp.swift */; };
 		E38744222C28895A000916FF /* AppetizersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38744212C28895A000916FF /* AppetizersTabView.swift */; };
 		E38744242C28895B000916FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38744232C28895B000916FF /* Assets.xcassets */; };
@@ -19,6 +23,10 @@
 
 /* Begin PBXFileReference section */
 		E376D8612C28904300163A13 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		E376D8642C28B05400163A13 /* AppetizerListTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListTile.swift; sourceTree = "<group>"; };
+		E376D8662C28B1B100163A13 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E376D8682C28B48700163A13 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		E376D86A2C28C60100163A13 /* AppetizerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerViewModel.swift; sourceTree = "<group>"; };
 		E387441C2C28895A000916FF /* Appetizers-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appetizers-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E387441F2C28895A000916FF /* Appetizers_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizers_SwiftUIApp.swift; sourceTree = "<group>"; };
 		E38744212C28895A000916FF /* AppetizersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersTabView.swift; sourceTree = "<group>"; };
@@ -64,9 +72,13 @@
 				E387442D2C28898A000916FF /* AppetizersView.swift */,
 				E387442F2C28899A000916FF /* OrderView.swift */,
 				E38744312C2889AE000916FF /* AccountView.swift */,
+				E376D8642C28B05400163A13 /* AppetizerListTile.swift */,
 				E376D8612C28904300163A13 /* Appetizer.swift */,
 				E38744232C28895B000916FF /* Assets.xcassets */,
 				E38744252C28895B000916FF /* Preview Content */,
+				E376D8662C28B1B100163A13 /* NetworkManager.swift */,
+				E376D8682C28B48700163A13 /* APError.swift */,
+				E376D86A2C28C60100163A13 /* AppetizerViewModel.swift */,
 			);
 			path = "Appetizers-SwiftUI";
 			sourceTree = "<group>";
@@ -150,9 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E376D8622C28904300163A13 /* Appetizer.swift in Sources */,
+				E376D8692C28B48700163A13 /* APError.swift in Sources */,
 				E387442E2C28898A000916FF /* AppetizersView.swift in Sources */,
+				E376D8652C28B05400163A13 /* AppetizerListTile.swift in Sources */,
 				E38744302C28899A000916FF /* OrderView.swift in Sources */,
+				E376D8672C28B1B100163A13 /* NetworkManager.swift in Sources */,
 				E38744222C28895A000916FF /* AppetizersTabView.swift in Sources */,
+				E376D86B2C28C60200163A13 /* AppetizerViewModel.swift in Sources */,
 				E38744202C28895A000916FF /* Appetizers_SwiftUIApp.swift in Sources */,
 				E38744322C2889AE000916FF /* AccountView.swift in Sources */,
 			);
