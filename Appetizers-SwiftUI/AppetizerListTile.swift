@@ -22,7 +22,6 @@ struct AppetizerListTile: View {
                 Text(appetizer.name)
                     .font(.title2)
                     .bold()
-                    .scaledToFit()
                     .minimumScaleFactor(0.6)
                     .padding(.bottom,5)
                     
