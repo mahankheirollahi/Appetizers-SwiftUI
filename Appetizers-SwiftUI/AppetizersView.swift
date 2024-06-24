@@ -13,18 +13,24 @@ struct AppetizersView: View {
  
     
     var body: some View {
-        NavigationView{
-            List(viewModel.appetizers){ appetizer in
-                AppetizerListTile(appetizer: appetizer)
-            }.navigationTitle("Appetizers")
-        }
-        .onAppear{
-            viewModel.getAppetizers()
-        }
+        ZStack{
+            NavigationView{
+                List(viewModel.appetizers){ appetizer in
+                    AppetizerListTile(appetizer: appetizer)
+                }.navigationTitle("Appetizers")
+            }
+            .onAppear{
+                viewModel.getAppetizers()
+            }
+            if viewModel.isLoading{
+                LoadingView()
+            }
+           
+            }
         .alert(item: $viewModel.alertItem){alertItem in
-            Alert(title: alertItem.title,
-                  message: alertItem.message,
-                  dismissButton: alertItem.dismissButton)
+                Alert(title: alertItem.title,
+                      message: alertItem.message,
+                      dismissButton: alertItem.dismissButton)
         }
     }
 }
