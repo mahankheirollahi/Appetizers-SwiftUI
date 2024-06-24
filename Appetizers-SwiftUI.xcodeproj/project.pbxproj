@@ -19,6 +19,9 @@
 		E387442E2C28898A000916FF /* AppetizersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E387442D2C28898A000916FF /* AppetizersView.swift */; };
 		E38744302C28899A000916FF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E387442F2C28899A000916FF /* OrderView.swift */; };
 		E38744322C2889AE000916FF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38744312C2889AE000916FF /* AccountView.swift */; };
+		E3D0878C2C2931D900573632 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D0878B2C2931D900573632 /* Alert.swift */; };
+		E3D0878E2C29381700573632 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D0878D2C29381700573632 /* LoadingView.swift */; };
+		E3D087902C293A0100573632 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D0878F2C293A0100573632 /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		E387442D2C28898A000916FF /* AppetizersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersView.swift; sourceTree = "<group>"; };
 		E387442F2C28899A000916FF /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		E38744312C2889AE000916FF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		E3D0878B2C2931D900573632 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		E3D0878D2C29381700573632 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		E3D0878F2C293A0100573632 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 				E376D8662C28B1B100163A13 /* NetworkManager.swift */,
 				E376D8682C28B48700163A13 /* APError.swift */,
 				E376D86A2C28C60100163A13 /* AppetizerViewModel.swift */,
+				E3D0878B2C2931D900573632 /* Alert.swift */,
+				E3D0878D2C29381700573632 /* LoadingView.swift */,
+				E3D0878F2C293A0100573632 /* Color+Ext.swift */,
 			);
 			path = "Appetizers-SwiftUI";
 			sourceTree = "<group>";
@@ -165,10 +174,13 @@
 				E376D8692C28B48700163A13 /* APError.swift in Sources */,
 				E387442E2C28898A000916FF /* AppetizersView.swift in Sources */,
 				E376D8652C28B05400163A13 /* AppetizerListTile.swift in Sources */,
+				E3D087902C293A0100573632 /* Color+Ext.swift in Sources */,
 				E38744302C28899A000916FF /* OrderView.swift in Sources */,
+				E3D0878E2C29381700573632 /* LoadingView.swift in Sources */,
 				E376D8672C28B1B100163A13 /* NetworkManager.swift in Sources */,
 				E38744222C28895A000916FF /* AppetizersTabView.swift in Sources */,
 				E376D86B2C28C60200163A13 /* AppetizerViewModel.swift in Sources */,
+				E3D0878C2C2931D900573632 /* Alert.swift in Sources */,
 				E38744202C28895A000916FF /* Appetizers_SwiftUIApp.swift in Sources */,
 				E38744322C2889AE000916FF /* AccountView.swift in Sources */,
 			);
