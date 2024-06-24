@@ -26,6 +26,7 @@ struct AppetizersTabView: View {
                     Text("Account")
                 }
         }
+        .tint(.brandPrimary)
     }
 }
 
