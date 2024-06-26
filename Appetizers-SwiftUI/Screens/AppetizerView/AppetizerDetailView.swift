@@ -58,7 +58,7 @@ struct AppetizerDetailView: View {
 }
 
 #Preview {
-    AppetizerDetailView(appetizer: MockData.sampleAppetizer,isShowingDetail: .constant(true))
+    AppetizerDetailView(appetizer: MockData.appetizers[0],isShowingDetail: .constant(true))
 }
 
 
