@@ -10,9 +10,6 @@ import SwiftUI
 struct AppetizersView: View {
     
     @StateObject var viewModel = AppetizerViewModel()
-    @State private var isShowingDetail = false
-    @State private var selectedAppetizer: Appetizer?
- 
     
     var body: some View {
         ZStack{
@@ -20,20 +17,20 @@ struct AppetizersView: View {
                 List(viewModel.appetizers){ appetizer in
                     AppetizerListTile(appetizer: appetizer)
                         .onTapGesture {
-                            selectedAppetizer = appetizer
-                            isShowingDetail = true
+                            viewModel.selectedAppetizer = appetizer
+                            viewModel.isShowingDetail = true
                             
                         }
                 }.navigationTitle("Appetizers")
-                    .disabled(isShowingDetail)
+                    .disabled(viewModel.isShowingDetail)
             }
             .onAppear{
                 viewModel.getAppetizers()
             }
-            .blur(radius: isShowingDetail ? 20 : 0)
+            .blur(radius: viewModel.isShowingDetail ? 20 : 0)
             
-            if(isShowingDetail){
-                AppetizerDetailView(appetizer: selectedAppetizer!,isShowingDetail: $isShowingDetail)
+            if(viewModel.isShowingDetail){
+                AppetizerDetailView(appetizer: viewModel.selectedAppetizer!,isShowingDetail: $viewModel.isShowingDetail)
             }
             
             if viewModel.isLoading{
